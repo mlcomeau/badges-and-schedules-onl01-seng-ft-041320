@@ -12,11 +12,10 @@ end
 
 def assign_rooms(array)
   room_assignments = []
-  counter = 1 
+  counter = 1
   array.each do |name|
     room_assignments << "Hello, #{name}! You'll be assigned to room #{counter}!"
-    counter += 1 
+    counter += 1
   end
   return room_assignments
 end
-
